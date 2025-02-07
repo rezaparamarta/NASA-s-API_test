@@ -1,0 +1,31 @@
+{
+  "name": "nasa-s-api_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testListAsteroid": "mocha test/get-asteroid.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaparamarta/NASA-s-API_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rezaparamarta/NASA-s-API_test/issues"
+  },
+  "homepage": "https://github.com/rezaparamarta/NASA-s-API_test#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
